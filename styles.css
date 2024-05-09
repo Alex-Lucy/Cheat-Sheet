@@ -1,10 +1,10 @@
 @font-face {
     font-family: Abel;
-    src: url(abel/abel-regular.ttf);
+    src: url(abel-regular.ttf);
 }
 @font-face {
     font-family: Arima;
-    src: url(../Arima/Arima-VariableFont_wght.ttf)
+    src: url(Arima-VariableFont_wght.ttf)
 }
 
 
