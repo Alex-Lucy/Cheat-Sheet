@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Abel;
+    src: url(abel/abel-regular.ttf);
+}
+@font-face {
+    font-family: Arima;
+    src: url(../Arima/Arima-VariableFont_wght.ttf)
+}
+
+
+*{
+    font-family: Arima, Abel, Kaushan Script;
+}
+
+body{
+    background-image: linear-gradient(135deg, violet, rgb(0, 153, 255));
+}
+
+.monospace{
+    font-family:Courier;
+    color: blue;
+}
+
+.bold{
+    font-weight: Bold;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.color{
+    color:violet;
+}
+
+.background{
+    background-color: greenyellow;
+}
+
+#css{
+    border: 1px solid;
+}
+
+#cssheader{
+    background-color:#C4A484;
+  }
+  
+#css tbody{
+    background-color:#90EE90;
+    border: 1px solid blue;
+}
+
+.Arial{
+    font-family: Arial;
+}
+
+.Abel{
+    font-family: Abel;
+}

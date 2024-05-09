@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link href="Styles/styles.css" rel= "stylesheet">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Cheat Sheet</title>
+
+    
+    </head>
+
+    <body>
+
+    <h1>This is My Cheat Sheet.</h1>
+
+<p>The purpose of this document is to display a selection of CSS or HTML rules for future reference.</p>
+
+
+<p>In this 'Cheat Sheet' I will include how to link external files, including fonts. <br>
+There are many aspects of HTML that are needed to present a web page.
+There are only a few aspects that can style HTML code and these are reffered to as inline styles. 
+CSS is a better platform to apply these styles. Here is a table to show a few of them. This table is also 
+created using only HTML. Relevent CSS has only been applied to the 'CSS Effect and Benefit' column.
+</p>
+
+<h2>HTML elements</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>HTML Element</th>
+            <th>Effect</th>
+            <th>Identifiable Issue</th>
+            <th>CSS Alternative</th>
+            <th>CSS Effect and Benefit</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+        <tr>
+            <td>&lt;b&gt;</td>
+            <td><b>Bold text.</b></td>
+            <td>This has to applied to each individual element.</td>
+            <td class="monospace">element{<br>font-weight:bold;<br>}</td>
+            <td class="bold">This applies the bold font to all named selectors in bulk. Faster and easier!</td>
+        </tr>
+    
+
+    
+        <tr>
+            <td>&lt;i&gt; or &lt;em&gt;</td>
+            <td><i>Italics</i></td>
+            <td>This has to be applied to each individual element.</td>
+            <td class="monospace">element{<br>font-style:italic;<br>}</td>
+            <td class="italics">This applies the italic font to all named selectors in bulk. Faster and easier!</td>
+        </tr>
+
+       <tr>
+            <td>&lt;element style= 'color: red'&gt;</td>
+            <td style= 'color: red;'>Colors text</td>
+            <td>This is an inline style that is added to each element.</td>
+            <td class="monospace">element{<br>color:red;<br>}</td>
+            <td class="color">This applies the colored font to all named selectors in bulk. Faster and easier!</td>
+
+         </tr>
+
+         <tr>
+            <td>Background color</td>
+            <td style=" background-color: aqua;">Colours the background of the element</td>
+            <td>This is an inline style that is added to each elelment.</td>
+            <td class="monospace">element{<br>background-color:aqua;<br>}</td>
+            <td class="background">This applies the color to all named elements in bulk. Faster and easier!</td>
+         </tr>
+
+   </tbody>
+
+</table>
+
+
+<h2>CSS</h2>
+
+<p>Css is far better suited to adjusting the visual presentation of a web page. The attributes can be added
+    to a lot of different elements with only one command as apposed to each individual 
+    element in it's line of code. CSS can also use different data packs available to link to or download 
+    to increase the visual variety available.
+</p>
+
+<table id="css">
+    <thead id="cssheader">
+        <th>Function</th>
+        <th>CSS Code</th>
+        <th>Outcome</th>
+    </thead>
+
+    <tbody id="cssbody">
+        <tr>
+            <td>Change the style of font</td>
+            <td class="Arial">element{<br>font-family: Arial;<br>}</td>
+            <td class="Arial">The font is changed</td>
+        </tr>
+
+        <tr>
+            <td>Fonts can be downloaded and linked to in the CSS file</td>
+            <td class="Abel">@font-face {<br>font-family: Abel;<br>src: url(abel/abel-regular.ttf)<br>}</td>
+            <td class="Abel">The font is declared as above, this changes it from the default available to a web font.</td>
+        </tr>
+    </tbody>
+</table>
+
+
+    </body>
+</html>
